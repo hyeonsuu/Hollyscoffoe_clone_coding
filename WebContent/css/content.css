@@ -39,13 +39,9 @@
 .con3 li {
     width: 98px;
     height: 126px;
-    padding: 10px 26px 0 26px;
+    padding: 0 20px 0 20px;
     margin-top: 70px;
-    border-right: 1px dotted #BDBDBD;
-}
-
-.con3:last-child(2) {
-    border-right: none;
+    border-right: 1px dotted #e5e5e5;
 }
 
 .con3 img {
@@ -58,12 +54,13 @@
     font-size: 11px;
 }
 
+
 .con4 {
     position: relative;
     left: 720px;
-    bottom: 500px;
+    bottom: 490px;
     background-color: #faf9f7;
     padding-top: 30px;
     width: 240px;
-    height: 271px;
+    height: 245px;
 }

@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------*/
+
+.sns {
+    width: 965px;
+    height: 84px;
+    position: relative;
+    left: 200px;
+    bottom: 780px;
+    padding-top: 40px;
+    border-top: 2px solid #ba000c;
+    margin-top: 50px;
+}
+
+.footer {
+    width: 1366px;
+    height: 130px;
+    position: relative;
+    bottom: 700px;
+    background-color: #bc000c;
+    padding-top: 33px;
+
+}
+
+.info a {
+    position: relative;
+    left: 200px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #faeff0;
+    border-right: 1px solid #faeff0;
+    padding-right: 5px;
+}
+
+.info a:nth-child(8) {
+    border-right: 0px;
+}
+
+.company {
+    position: relative;
+    left: 200px;
+    font-size: 11px;
+    color: #de898e;
+    margin-top: 15px;
+    line-height: 15px;
+}
