@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------*/
+
+.news {
+    width: 940px;
+    height: 106px;
+    overflow: hidden;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #6f6f6f;
+}
+
+.news1 {
+    float: left;
+    margin-right: 35px;
+    width: 205px;
+    height: 87px;
+}
+
+.going {
+    background: url("../img/arrow.gif") left 1px no-repeat;
+    padding: 0 0 0 18px;
+    margin-top: 7px;
+}
+
+.news2 {
+    float: left;
+    margin-right: 35px;
+    width: 205px;
+    height: 106px;
+}
+
+.news3 {
+    float: left;
+    margin-right: 35px;
+    width: 205px;
+    height: 88px;
+}
+
+.news3 li {
+    width: 205px;
+    height: 19px;
+    margin-bottom: 3px;
+}
+
+.title_left {
+    float: left;
+    width: 153px;
+    height: 19px;
+    font-size: 12px;
+    color: #6f6f6f;
+}
+
+.title_right {
+    float: right;
+    width: 34px;
+    height: 19px;
+    font-size: 12px;
+    color: #6f6f6f;
+}
+
+.icon ul {
+    width: 205px;
+    height: 81px;
+    float: left;
+}
+
+.icon1 {
+    float: left;
+    width: 61px;
+    height: 77px;
+}
+
+.icon2 {
+    float: left;
+    width: 72px;
+    height: 80px;
+}
+
+.icon3 {
+    float: left;
+    width: 66px;
+    height: 81px;
+}
+
+.img_icon img {
+    background: url("../img/bar.gif") right top no-repeat;
+    width: 38px;
+    height: 37px;
+    padding: 10px 14px 10px;
+}
+
+.img_icon1 img {
+    width: 38px;
+    height: 37px;
+    padding: 10px 14px 10px;
+}
+
+.icon_text {
+    text-align: center;
+    font-size: 11px;
+    color: #6f6f6f;
+    display: block;
+}
+
+.clear:after {
+    content: '';
+    display: block;
+    clear: both;
+    float: none;
+}

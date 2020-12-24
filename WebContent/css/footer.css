@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------*/
+.footer {
+    width: 100%;
+    min-width: 940px;
+    height: 115px;
+    padding: 33px 0 0 0;
+    background: #bc000c;
+    font-size: 11px;
+}
+
+.footer_inner {
+    width: 940px;
+    margin: 0 auto;
+    line-height: 14px;
+}
+
+.info {
+    float: left;
+}
+
+.footer_inner a {
+    padding: 0 8px 0 3px;
+    color: #faeff0;
+    background: url("../img/smallbar.gif") right 2px no-repeat;
+}
+
+
+.footer_inner p {
+    margin-top: 23px;
+    color: #de898e;
+    line-height: 16px;
+    word-spacing: -1px;
+}
+
+
+p.address {
+    margin-top: 0;
+}

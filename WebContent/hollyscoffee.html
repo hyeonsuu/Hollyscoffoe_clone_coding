@@ -18,6 +18,12 @@
     <link rel="apple-touch-icon" href="img/icon.png" />
     <!-- CSS 파일 참조 처리-->
     <link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/cate_layer.css" />
+    <link rel="stylesheet" type="text/css" href="css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="css/content.css" />
+    <link rel="stylesheet" type="text/css" href="css/news.css" />
+    <link rel="stylesheet" type="text/css" href="css/sns.css" />
+    <link rel="stylesheet" type="text/css" href="css/footer.css" />
 </head>
 
 <body link="black" vlink="black" alink="black">
@@ -64,7 +70,7 @@
                                 <img src="img/cate1.png" alt="메뉴" />
                             </a>
                             <br />
-                            <span style="opacity: 1;">메뉴</span>
+                            <span style="opacity: 0;">메뉴</span>
                         </li>
                         <li>
                             <a href="#">
@@ -104,6 +110,83 @@
                     </ul>
                 </div>
             </div>
+            <!-- cate_layer.css -->
+            <div class="cate_layer">
+                <div class="cate_layerinner">
+                    <ul class="c_menu">
+                        <li>
+                            <a href="#">COFFEE</a>
+                        </li>
+                        <li>
+                            <a href="#">라떼·초콜릿·티</a>
+                        </li>
+                        <li>
+                            <a href="#">할리치노·빙수</a>
+                        </li>
+                        <li>
+                            <a href="#">스파클링</a>
+                        </li>
+                        <li>
+                            <a href="#">베이커리·스낵MD</a>
+                        </li>
+                        <li>
+                            <a href="#">MD상품</a>
+                        </li>
+                        <li>
+                            <a href="#">MD커피</a>
+                        </li>
+                    </ul>
+                    <ul class="c_hollysmall">
+                        <li>
+                            <a href="#">할리스콘</a>
+                        </li>
+                        <li>
+                            <a href="#">할리스카드</a>
+                        </li>
+                        <li>
+                            <a href="#">구매내역</a>
+                        </li>
+                    </ul>
+                    <ul class="c_membership">
+                        <li>
+                            <a href="#">스마트오더</a>
+                        </li>
+                        <li>
+                            <a href="#">멤버십 혜택안내</a>
+                        </li>
+                    </ul>
+                    <ul class="c_event">
+                        <li>
+                            <a href="#">Notice</a>
+                        </li>
+                        <li>
+                            <a href="#">Event</a>
+                        </li>
+                    </ul>
+                    <ul class="c_store">
+                        <li>
+                            <a href="#">매장검색</a>
+                        </li>
+                    </ul>
+                    <ul class="c_hollysis">
+                        <li>
+                            <a href="#">HOLLYS Coffee</a>
+                        </li>
+                        <li>
+                            <a href="#">할리스 위치 및 연락처</a>
+                        </li>
+                        <li>
+                            <a href="#">채용안내</a>
+                        </li>
+                        <li>
+                            <a href="#">가맹문의 및 절차</a>
+                        </li>
+                        <li>
+                            <a href="#">B2B 사업 소개</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="banner">
                 <img src="img/banner1.jpg" alt="배너1" />
                 <!-- <img src="img/banner2.jpg" alt="배너2" />
@@ -112,191 +195,170 @@
                 <img src="img/banner5.jpg" alt="배너5" /> -->
             </div>
             <br />
-            <div class="content">
-                <div class="con1">
-                    <span class="text1">
-                        <img src="img/bodytext1.gif" alt="프랜차이즈">
-                    </span>
-                    <br />
-                    <a href="#">
-                        <img src="img/bodyphoto1.gif" alt="가맹문의" />
-                    </a>
-                </div>
-                <div class="con2">
-                    <img src="img/bodytext2.gif" alt="body할리스몰">
-                    <br />
-                    <br />
-                    <img src="img/bodytext2_1.gif">
-                    <br />
-                </div>
-                <div class="con3">
-                    <a href="#">
-                        <ul>
+            <div class="content" class="clear">
+                <div class="con_body">
+                    <div class="con_top">
+                        <div class="con1">
+                            <span class="text">
+                                <img src="img/bodytext1.gif" alt="프랜차이즈">
+                            </span>
+                            <br />
+                            <a href="#">
+                                <img src="img/bodyphoto1.gif" alt="가맹문의" />
+                            </a>
+                        </div>
+                        <div class="con2">
+                            <p>
+                                <img src="img/bodytext2.gif" alt="body할리스몰">
+                            </p>
+                            <span>
+                                <img src="img/bodytext2_1.gif">
+                            </span>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span class="cof_img"><img src="img/bodyphoto2.png" alt="커피1" /></span>
+                                        <br />
+                                        <span class="cof_text">오리온 밀크카라멜 마끼아또</span>
+                                    </a>
+                                </li>
+                                <li class="plus_bar">
+                                    <a href="#">
+                                        <span class="cof_img"><img src="img/bodyphoto3.png" alt="커피2" /></span>
+                                        <br />
+                                        <span class="cof_text">윈터 벨지안 초코</span>
+                                    </a>
+                                </li>
+                                <li class="plus_bar">
+                                    <a href="#">
+                                        <span class="cof_img"><img src="img/bodyphoto4.png" alt="커피3" /></span>
+                                        <br />
+                                        <span class="cof_text">제주 감귤 레몬그라스</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="con3">
+                            <span class="text">
+                                <img src="img/bodytext3.gif" alt="body스토어">
+                            </span>
+                            <a href="#">
+                                <img src="img/bodyphoto5.jpg" alt="스토어찾기" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="con_mid">
+                        <div class="membership">
+                            <a href="#">
+                                <img src="img/bodydown1.jpg" alt="멤버쉽가입" />
+                            </a>
+                        </div>
+                        <div class="gift">
+                            <a href="#">
+                                <img src="img/bodydown2.jpg" alt="할리스카드" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="news">
+                        <ul class="news1">
+                            <li><img src="img/downtext1.gif" alt="아카데미" /></li>
+                            <li style="margin-top: 4px">
+                                할리스커피 아카데미가 함께하는 즐거운 커피 여행!
+                            </li>
+                            <li class="going">바로가기</li>
+                        </ul>
+                        <ul class="news2">
+                            <li><img src="img/downtext2.gif" alt="솔루션" /></li>
                             <li>
-                                <img src="img/bodyphoto2.png" alt="커피1" />
-                                <br />
-                                <span class="con_text">
-                                    오리온 밀크카라멜 <br /> 마끼아또
-                                </span>
+                                할리스 F&B는 20년의 커피 노하우를<br />
+                                기반으로 한 할리스 B2B 솔루션을
+                                <br /> 소개합니다.
+                            </li>
+                            <li class="going">바로가기</li>
+                        </ul>
+                        <ul class="news3" class="clear">
+                            <li class="title">
+                                <a href="#">
+                                    <img src="img/downtext3.gif" alt="뉴스" />
+                                    <img src="img/arrow.gif" alt="화살표">
+                                </a>
+                            </li>
+                            <li class="title_1">
+                                <a href="#">
+                                    <span class="title_left">해리포터 콜라보 굿즈 4종···</span>
+                                    <span class="title_right">12-02</span>
+                                </a>
+                            </li>
+                            <li class="title_2">
+                                <a href="#">
+                                    <span class="title_left">홀케이크 사전예약 유의사···</span>
+                                    <span class="title_right">12-15</span>
+                                </a>
+                            </li>
+                            <li class="title_3">
+                                <a href="#">
+                                    <span class="title_left">개인정보처리방침 변경 안내</span>
+                                    <span class="title_right">10-06</span>
+                                </a>
                             </li>
                         </ul>
-                    </a>
-                    <a href="#">
-                        <ul>
-                            <li>
-                                <img src="img/bodyphoto3.png" alt="커피2" />
-                                <br />
-                                <span class="con_text">
-                                    윈터 벨지안 초코<br />&nbsp;
-                                </span>
+                        <ul class="icon">
+                            <li class="icon1">
+                                <a href="#">
+                                    <span class="img_icon"><img src="img/downimg1.gif" alt="창업안내" /></span>
+                                    <span class="icon_text">창업안내</span>
+                                </a>
+                            </li>
+                            <li class="icon2">
+                                <a href="#">
+                                    <span class="img_icon"><img src="img/downimg2.gif" alt="아카데미강좌" /></span>
+                                    <span class="icon_text">아카데미&nbsp;강좌</span>
+                                </a>
+                            </li>
+                            <li class="icon3">
+                                <a href="#">
+                                    <span class="img_icon1"><img src="img/downimg3.gif" alt="고객문의" /></span>
+                                    <span class="icon_text">고객문의</span>
+                                </a>
                             </li>
                         </ul>
-                    </a>
-                    <a href="#">
-                        <ul>
-                            <li>
-                                <img src="img/bodyphoto4.png" alt="커피3" />
-                                <br />
-                                <span class="con_text">
-                                    제주 감귤 레몬그라<br />스
-                                </span>
-                            </li>
-                        </ul>
-                    </a>
-                </div>
-                <div class="con4">
-                    <span class="text1">
-                        <img src="img/bodytext3.gif" alt="body스토어">
-                    </span>
-                    <br />
-                    <img src="img/bodyphoto5.jpg" alt="스토어찾기" />
-                </div>
-            </div>
-            <br />
-            <!-- content2.css -->
-            <div class="membership">
-                <ul>
-                    <img src="img/bodydown1.jpg" alt="멤버쉽가입" />
-                    <img src="img/bodydown2.jpg" alt="할리스카드" />
-                </ul>
-            </div>
-            <br />
-            <div class="news">
-                <div class="news1">
-                    <ul>
-                        <li>
+                    </div>
+                    <div class="sns">
+                        <p>
+                            <img src="img/footerimg1.gif" alt="할리스라이브" />
                             <a href="#">
-                                <img src="img/downtext1.gif" alt="아카데미" />
-                        </li>
-                        <li class="text2">
-                            할리스커피 아카데미가 함께하는 즐거<br />운 커피 여행!
-                        </li>
-                        <br />
-                        <li>
-                            <img src="img/arrow.gif" alt="화살표">
-                            <span class="text3">바로가기</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="news2">
-                    <ul>
-                        <li>
-                            <img src="img/downtext2.gif" alt="솔루션" />
-                        </li>
-                        <li class="text2">
-                            할리스 F&B는 20년의 커피 노하우를<br />기반으로 한 할리스 B2B 솔루션을
-                            <br /> 소개합니다.
-                        </li>
-                        <br />
-                        <li>
-                            <a href="#">
-                                <img src="img/arrow.gif" alt="화살표">
-                                <span class="text3">바로가기</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="news3">
-                    <ul>
-                        <li>
-                            <img src="img/downtext3.gif" alt="뉴스" />
-                            <a href="#">
-                                <img src="img/arrow.gif" alt="화살표">
-                            </a>
-                        </li>
-                        <li class="text2">
-                            <a href="#">
-                                해리포터 콜라보 굿즈 4종···<br />
+                                <img src="img/sns1.gif" alt="페이스북" />
                             </a>
                             <a href="#">
-                                홀케이크 사전예약 유의사···<br />
+                                <img src="img/sns2.gif" alt="인스타그램" />
                             </a>
                             <a href="#">
-                                개인정보처리방침 변경 안내<br />
+                                <img src="img/sns3.gif" alt="밴드" />
                             </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="news4">
-                    <ul>
-                        <li class="date">
-                            12-02<br />
-                            12-15<br />
-                            10-06<br />
-                        </li>
-                    </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="all_icon">
-                <div class="icon1">
-                    <ul>
-                        <img src="img/downimg1.gif" alt="창업안내" />
-                        <li class="text2">창업안내</li>
-                    </ul>
-                </div>
-                <div class="icon2">
-                    <ul>
-                        <img src="img/downimg2.gif" alt="아카데미강좌" />
-                        <li class="text2">아카데미&nbsp;강좌</li>
-                    </ul>
-                </div>
-                <div class="icon3">
-                    <ul>
-                        <img src="img/downimg3.gif" alt="고객문의" />
-                        <li class="text2">고객문의</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="sns">
-                <img src="img/footerimg1.gif" alt="할리스라이브" />
-                <img src="img/sns1.gif" alt="페이스북" />
-                <img src="img/sns2.gif" alt="인스타그램" />
-                <img src="img/sns3.gif" alt="밴드" />
-            </div>
-            <br />
             <div class="footer">
-                <ul class="info">
-                    <a href="#">개인정보처리방침</a>
-                    <a href="#">서비스이용약관</a>
-                    <a href="#">멤버십이용약관</a>
-                    <a href="#">할리스카드이용약관</a>
-                    <a href="#">고객문의</a>
-                    <a href="#">고객설문</a>
-                    <a href="#">사이트맵</a>
-                    <a href="#">BI 소개</a>
-                </ul>
-                <br />
-                <div class="company">
-                    법인명:(주)할리스에프앤비대표자:신유정 사업자 등록번호 211-87-61044 통신판매업:제2019-서울종로-0193호<br />주소:서울특별시 종로구 율곡로 88 삼환빌딩 8층(운니동)대표전화:02-2188-7100(가맹문의:02-6350-7229)
-                    <span class="adr">
-                        <address>
+                <div class="footer_inner">
+                    <div class="info">
+                        <a href="#">개인정보처리방침</a>
+                        <a href="#">서비스이용약관</a>
+                        <a href="#">멤버십이용약관</a>
+                        <a href="#">할리스카드이용약관</a>
+                        <a href="#">고객문의</a>
+                        <a href="#">고객설문</a>
+                        <a href="#">사이트맵</a>
+                        <a href="#">BI 소개</a>
+                        <p>
+                            법인명:(주)할리스에프앤비대표자:신유정 사업자 등록번호 211-87-61044 통신판매업:제2019-서울종로-0193호<br />주소:서울특별시 종로구 율곡로 88 삼환빌딩 8층(운니동)대표전화:02-2188-7100(가맹문의:02-6350-7229)
+                        </p>
+                        <p class="address">
                             COPTRIGHT(C)HOLLYS COFFEECo.,Ltd.All Rights Reserved
-                        </address>
-                    </span>
+                        </p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 </body>
 
 </html>

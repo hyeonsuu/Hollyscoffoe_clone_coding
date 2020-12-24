@@ -19,12 +19,14 @@
 .header {
     width: 1320px;
     height: 148px;
+    border-bottom: 2px solid #bc000c;
 }
 
 .headerinner {
     width: 940px;
     height: 149px;
     margin: 0 213px 0 213px;
+
 }
 
 h1 {
