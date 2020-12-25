@@ -24,6 +24,9 @@
     <link rel="stylesheet" type="text/css" href="css/news.css" />
     <link rel="stylesheet" type="text/css" href="css/sns.css" />
     <link rel="stylesheet" type="text/css" href="css/footer.css" />
+    <!-- Plugin css 참조 처리 -->
+    <link rel="stylesheet" href="plugin/animate/animate.css" />
+    <link rel="stylesheet" href="plugin/superslides/stylesheets/superslides.css">
 </head>
 
 <body link="black" vlink="black" alink="black">
@@ -64,137 +67,152 @@
                         </li>
                     </ul>
                     <br />
-                    <ul class="category">
-                        <li>
-                            <a href="#">
-                                <img src="img/cate1.png" alt="메뉴" />
-                            </a>
-                            <br />
-                            <span style="opacity: 0;">메뉴</span>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/cate2.png" alt="할리스몰" />
-                            </a>
-                            <br />
-                            <span style="opacity: 1;">할리스몰</span>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/cate3.png" alt="멤버십" />
-                            </a>
-                            <br />
-                            <span style="opacity: 1;">멤버십</span>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/cate4.png" alt="공지사항" />
-                            </a>
-                            <br />
-                            <span style="opacity: 1;">이벤트 및 공지</span>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/cate5.png" alt="매장" />
-                            </a>
-                            <br />
-                            <span style="opacity: 1;">매장</span>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="img/cate6.png" alt="할리스소개" />
-                            </a>
-                            <br />
-                            <span style="opacity: 1;">할리스 소개</span>
-                        </li>
-                    </ul>
+                    <div class="category">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">Menu</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">메뉴</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">HOLLYS Mall</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">할리스몰</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">Membership</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">멤버십</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">HOLLYS News</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">이벤트 및 공지</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">Store</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">매장</span>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <h1 class="cate_name">HOLLYS is</h1>
+                                </a>
+                                <span class="name" style="opacity: 0">할리스 소개</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- cate_layer.css -->
+                <div class="cate_layer">
+                    <div class="cate_layerinner">
+                        <ul class="c_menu">
+                            <li>
+                                <a href="#">COFFEE</a>
+                            </li>
+                            <li>
+                                <a href="#">라떼&nbsp;·&nbsp;초콜릿&nbsp;·&nbsp;티</a>
+                            </li>
+                            <li>
+                                <a href="#">할리치노&nbsp;·&nbsp;빙수</a>
+                            </li>
+                            <li>
+                                <a href="#">스파클링</a>
+                            </li>
+                            <li>
+                                <a href="#">베이커리&nbsp;·&nbsp;스낵MD</a>
+                            </li>
+                            <li>
+                                <a href="#">MD상품</a>
+                            </li>
+                            <li>
+                                <a href="#">MD커피</a>
+                            </li>
+                        </ul>
+                        <ul class="c_hollysmall">
+                            <li>
+                                <a href="#">할리스콘</a>
+                            </li>
+                            <li>
+                                <a href="#">할리스카드</a>
+                            </li>
+                            <li>
+                                <a href="#">구매내역</a>
+                            </li>
+                        </ul>
+                        <ul class="c_membership">
+                            <li>
+                                <a href="#">스마트오더</a>
+                            </li>
+                            <li>
+                                <a href="#">멤버십 혜택안내</a>
+                            </li>
+                        </ul>
+                        <ul class="c_event">
+                            <li>
+                                <a href="#">Notice</a>
+                            </li>
+                            <li>
+                                <a href="#">Event</a>
+                            </li>
+                        </ul>
+                        <ul class="c_store">
+                            <li>
+                                <a href="#">매장검색</a>
+                            </li>
+                        </ul>
+                        <ul class="c_hollysis">
+                            <li>
+                                <a href="#">HOLLYS Coffee</a>
+                            </li>
+                            <li>
+                                <a href="#">할리스 위치 및 연락처</a>
+                            </li>
+                            <li>
+                                <a href="#">채용안내</a>
+                            </li>
+                            <li>
+                                <a href="#">가맹문의 및 절차</a>
+                            </li>
+                            <li>
+                                <a href="#">B2B 사업 소개</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <!-- cate_layer.css -->
-            <div class="cate_layer">
-                <div class="cate_layerinner">
-                    <ul class="c_menu">
-                        <li>
-                            <a href="#">COFFEE</a>
-                        </li>
-                        <li>
-                            <a href="#">라떼·초콜릿·티</a>
-                        </li>
-                        <li>
-                            <a href="#">할리치노·빙수</a>
-                        </li>
-                        <li>
-                            <a href="#">스파클링</a>
-                        </li>
-                        <li>
-                            <a href="#">베이커리·스낵MD</a>
-                        </li>
-                        <li>
-                            <a href="#">MD상품</a>
-                        </li>
-                        <li>
-                            <a href="#">MD커피</a>
-                        </li>
-                    </ul>
-                    <ul class="c_hollysmall">
-                        <li>
-                            <a href="#">할리스콘</a>
-                        </li>
-                        <li>
-                            <a href="#">할리스카드</a>
-                        </li>
-                        <li>
-                            <a href="#">구매내역</a>
-                        </li>
-                    </ul>
-                    <ul class="c_membership">
-                        <li>
-                            <a href="#">스마트오더</a>
-                        </li>
-                        <li>
-                            <a href="#">멤버십 혜택안내</a>
-                        </li>
-                    </ul>
-                    <ul class="c_event">
-                        <li>
-                            <a href="#">Notice</a>
-                        </li>
-                        <li>
-                            <a href="#">Event</a>
-                        </li>
-                    </ul>
-                    <ul class="c_store">
-                        <li>
-                            <a href="#">매장검색</a>
-                        </li>
-                    </ul>
-                    <ul class="c_hollysis">
-                        <li>
-                            <a href="#">HOLLYS Coffee</a>
-                        </li>
-                        <li>
-                            <a href="#">할리스 위치 및 연락처</a>
-                        </li>
-                        <li>
-                            <a href="#">채용안내</a>
-                        </li>
-                        <li>
-                            <a href="#">가맹문의 및 절차</a>
-                        </li>
-                        <li>
-                            <a href="#">B2B 사업 소개</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <!-- 슬라이드의 부모(높이와 넓이를 구성한다) -->
             <div class="banner">
-                <img src="img/banner1.jpg" alt="배너1" />
-                <!-- <img src="img/banner2.jpg" alt="배너2" />
-                <img src="img/banner3.jpg" alt="배너3" />
-                <img src="img/banner4.jpg" alt="배너4" />
-                <img src="img/banner5.jpg" alt="배너5" /> -->
+                <div class="slides">
+                    <ul class="slides-container">
+                        <!-- 슬라이드 1 -->
+                        <li>
+                            <img src="img/banner1.jpg" alt="배너1" />
+                        </li>
+                        <!-- 슬라이드 2 -->
+                        <li>
+                            <img src="img/banner2.jpg" alt="배너2" />
+                        </li>
+                        <!-- 슬라이드 3 -->
+                        <li>
+                            <img src="img/banner3.jpg" alt="배너3" />
+                        </li>
+                        <!-- 슬라이드 4 -->
+                        <li>
+                            <img src="img/banner4.jpg" alt="배너4" />
+                        </li>
+                        <!-- 슬라이드 5 -->
+                        <li>
+                            <img src="img/banner5.jpg" alt="배너5" />
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <br />
             <div class="content" class="clear">
                 <div class="con_body">
                     <div class="con_top">
@@ -359,6 +377,40 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!--  스크립트 적용 -->
+        <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <!-- 플러그인 JS 참조 -->
+        <script src="plugin/superslides/jquery.easing.1.3.js"></script>
+        <script src="plugin/superslides/jquery.superslides.min.js"></script>
+        <script type="text/javascript">
+        $(function() {
+
+            /** `#slides`요소에 대해 플러그인 적용 */
+            $('.slides').superslides({
+                inherit_width_from: '.banner', // 슬라이드의 넓이를 구성할 부모 요소
+                inherit_height_from: '.banner', // 슬라이드의 높이를 구성할 부모 요소
+                play: 5000, // 재생시간 (1/1000초 단위). 미지정시 자동재생 안됨.
+                animation: 'slide' // 애니메이션 옵션(fade/slide) (미적용시 슬라이드)
+            });
+        });
+
+        $('.category').mouseenter(function() {
+            $('.cate_layer').stop().slideDown(400);
+            $('.name').animate({ opacity: 1 }, 100);
+        });
+        $('.category').mouseleave(function() {
+            $('.cate_layer').stop().slideUp(400);
+            $('.name').animate({ opacity: 0 }, 100);
+        });
+        $('.cate_layer').mouseenter(function() {
+            $('.cate_layer').stop().slideDown(400);
+        });
+        $('.cate_layer').mouseleave(function() {
+            $('.cate_layer').stop().slideUp(400);
+
+        });
+        </script>
 </body>
 
 </html>
