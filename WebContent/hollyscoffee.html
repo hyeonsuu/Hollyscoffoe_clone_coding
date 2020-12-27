@@ -369,7 +369,8 @@
                         <a href="#">사이트맵</a>
                         <a href="#">BI 소개</a>
                         <p>
-                            법인명:(주)할리스에프앤비대표자:신유정 사업자 등록번호 211-87-61044 통신판매업:제2019-서울종로-0193호<br />주소:서울특별시 종로구 율곡로 88 삼환빌딩 8층(운니동)대표전화:02-2188-7100(가맹문의:02-6350-7229)
+                            법인명:(주)할리스에프앤비대표자:신유정 사업자 등록번호 211-87-61044 통신판매업:제2019-서울종로-0193호<br />
+                            주소:서울특별시 종로구 율곡로 88 삼환빌딩 8층(운니동)대표전화:02-2188-7100(가맹문의:02-6350-7229)
                         </p>
                         <p class="address">
                             COPTRIGHT(C)HOLLYS COFFEECo.,Ltd.All Rights Reserved
@@ -386,7 +387,7 @@
         <script type="text/javascript">
         $(function() {
 
-            /** `#slides`요소에 대해 플러그인 적용 */
+            /** `.slides`요소에 대해 플러그인 적용 */
             $('.slides').superslides({
                 inherit_width_from: '.banner', // 슬라이드의 넓이를 구성할 부모 요소
                 inherit_height_from: '.banner', // 슬라이드의 높이를 구성할 부모 요소
@@ -395,17 +396,27 @@
             });
         });
 
+        // .category에  마우스가 들어왔을 경우 .cate_layer가 slidedown
+        //  마우스가 들어왔을 경우엔 .name 표시
         $('.category').mouseenter(function() {
             $('.cate_layer').stop().slideDown(400);
             $('.name').animate({ opacity: 1 }, 100);
         });
+
+        // .category에서  마우스가 나갔을 경우 .cate_layer가 slideup
+        //  마우스가 나갔을 경우엔 .name 표시 안함
         $('.category').mouseleave(function() {
             $('.cate_layer').stop().slideUp(400);
             $('.name').animate({ opacity: 0 }, 100);
         });
+
+        // .cate_layer에  마우스가 들어왔을 경우 .cate_layer가 slidedown
+        // 실제로 slidedown 되는 것은 없음 !
         $('.cate_layer').mouseenter(function() {
             $('.cate_layer').stop().slideDown(400);
         });
+
+        // .cate_layer에  마우스가 들어왔을 경우 .cate_layer가 slideup
         $('.cate_layer').mouseleave(function() {
             $('.cate_layer').stop().slideUp(400);
 

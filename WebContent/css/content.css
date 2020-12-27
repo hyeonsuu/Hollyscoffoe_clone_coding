@@ -3,6 +3,7 @@
 /*
 -----------------------------------------------*/
 
+/** content 전체 사이즈 지정 */
 .content {
     width: 940px;
     height: 880px;
@@ -10,6 +11,7 @@
     position: relative;
 }
 
+/** content 안에 들어가는 con~ 을 감싸는 영역 지정 */
 .con_body {
     width: 940px;
     height: 730px;

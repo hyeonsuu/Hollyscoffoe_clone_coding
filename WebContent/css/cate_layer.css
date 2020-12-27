@@ -3,6 +3,7 @@
 /*
 -----------------------------------------------*/
 
+/** 마우스 엔터 시 보여지는 영역 설정 */
 .cate_layer {
     display: none;
     background: url('../img/bg_cate.gif') left top repeat-x;
@@ -13,6 +14,7 @@
     width: 100%;
 }
 
+/** 마우스 엔터 시 보여지는 영역 안쪽 설정 */
 .cate_layerinner {
     display: block;
     margin: 0 auto;
@@ -22,6 +24,7 @@
     height: 193px;
 }
 
+/** 목록 정의 */
 .cate_layer ul {
     float: left;
     width: 156px;
@@ -32,6 +35,7 @@
     text-align: center;
 }
 
+/** a -> 폰트 컬러, 위치 잡기 */
 .cate_layer li a {
     margin-left: 20px;
     font-size: 13px;
